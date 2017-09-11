@@ -32,15 +32,17 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.awaken.support.preferences.SecureSettingMasterSwitchPreference;
+import com.android.settings.custom.preference.SecureSettingMasterSwitchPreference;
 
 public class DisplayCustomizations extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "Display Customizations";
     private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
+    private static final String KEY_BATTERY_CHARGING_LIGHT = "battery_charging_light";
 
     private SecureSettingMasterSwitchPreference mBrightnessSlider;
+    Preference mBatteryLightPref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -55,6 +57,15 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
         boolean enabled = Settings.Secure.getInt(resolver,
                 BRIGHTNESS_SLIDER, 1) == 1;
         mBrightnessSlider.setChecked(enabled);
+
+        mBatteryLightPref = (Preference) findPreference(KEY_BATTERY_CHARGING_LIGHT);
+        if (!getResources()
+                .getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed))
+        {
+			if (mBatteryLightPref != null) {
+				prefSet.removePreference(mBatteryLightPref);
+			}
+        }
     }
 
     @Override
@@ -71,6 +82,6 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-       return MetricsProto.MetricsEvent.AWAKEN;
+       return MetricsProto.MetricsEvent.CUSTOM;
     }
 }
