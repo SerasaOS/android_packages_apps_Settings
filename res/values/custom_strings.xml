@@ -344,4 +344,7 @@
     <string name="custom_lab_title">ElectroLab</string>
     <string name="custom_lab_footer">Do With Your Own Risk!</string>
     <string name="custom_lab_summary">Casual Features</string>
+
+    <!-- About device screen, Custom Release Version -->
+    <string name="custom_release_version">Custom Version</string>
 </resources>
