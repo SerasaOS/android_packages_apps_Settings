@@ -19,4 +19,7 @@
     <string name="edoubleu_lab_title">ElectroLab</string>
     <string name="edoubleu_lab_footer">At your own risk if you use spoof</string>
     <string name="edoubleu_lab_summary">Features</string>
+
+    <!-- About device screen, Edoubleu Release Version -->
+    <string name="edoubleu_release_version">Edoubleu Version</string>
 </resources>

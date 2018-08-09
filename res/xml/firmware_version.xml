@@ -27,6 +27,15 @@
         android:layout="@layout/edoubleu_logo"
         android:selectable="false"/>
 
+    <!-- Edoubleu version -->
+    <Preference
+        android:key="edoubleu_release_version"
+        android:title="@string/edoubleu_release_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EdoubleuVersionDetailPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
