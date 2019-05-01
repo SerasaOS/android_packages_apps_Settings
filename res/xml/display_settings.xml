@@ -107,14 +107,6 @@
             android:title="@string/accessibility_text_reading_options_title"
             android:summary="@string/accessibility_text_reading_options_summary"
             settings:controller="com.android.settings.accessibility.TextReadingFragmentForDisplaySettingsController"/>
-
-        <Preference
-            android:key="icon_manager"
-            android:title="@string/icon_manager_title"
-            android:summary="@string/icon_manager_summary">
-            <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
-        </Preference>
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -236,13 +228,6 @@
             android:defaultValue="false"
             settings:controller="com.android.settings.custom.touch.HighTouchSensitivitySettingsPreferenceController" />
 
-        <Preference
-            android:key="display_cutout_force_fullscreen_settings"
-            android:title="@string/display_cutout_force_fullscreen_title"
-            android:summary="@string/display_cutout_force_fullscreen_summary"
-            android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
-            settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
-
         <!-- Double tap to sleep -->
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
@@ -259,5 +244,22 @@
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/customization_category_title">
+
+        <Preference
+            android:key="display_customizations"
+            android:title="@string/display_customization_title"
+            android:summary="@string/display_customization_summary"
+            android:fragment="com.android.settings.custom.fragments.DisplayCustomizations" />
+
+        <Preference
+            android:key="display_cutout_force_fullscreen_settings"
+            android:title="@string/display_cutout_force_fullscreen_title"
+            android:summary="@string/display_cutout_force_fullscreen_summary"
+            android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
+            settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
     </PreferenceCategory>
 </PreferenceScreen>
