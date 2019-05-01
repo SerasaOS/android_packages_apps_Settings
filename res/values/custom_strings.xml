@@ -389,4 +389,11 @@
     <!-- Game Space -->
     <string name="game_space_title">Game Space</string>
     <string name="game_space_summary">Enhance your gaming experience</string>
+
+    <!-- Customization category -->
+    <string name="customization_category_title">Customization</string>
+    <string name="display_customization_title">Display Customizations</string>
+    <string name="display_customization_summary">Adjust statusbar and quick settings</string>
+    <string name="quicksettings_category_title">Quick Settings Customizations</string>
+    <string name="statusbar_category_title">Statusbar Customizations</string>
 </resources>
