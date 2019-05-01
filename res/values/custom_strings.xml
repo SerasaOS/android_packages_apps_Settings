@@ -363,4 +363,10 @@
     <!-- QS footer data usage -->
     <string name="qs_show_data_usage_title">Show data usage</string>
     <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+
+    <!-- Customization category -->
+    <string name="customization_category_title">Customization</string>
+    <string name="display_customization_title">Display Customizations</string>
+    <string name="display_customization_summary">Adjust statusbar and quick settings</string>
+    <string name="statusbar_category_title">Statusbar Customizations</string>
 </resources>
