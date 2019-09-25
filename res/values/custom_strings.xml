@@ -331,4 +331,10 @@
     <string name="lock_screen_pocket_detection_summary">Block screen and button inputs when device is in pocket</string>
     <string name="always_on_pocket_mode_enabled_title">Always on Pocket mode</string>
     <string name="always_on_pocket_mode_summary">Always block screen and button inputs when screen is turned on</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
