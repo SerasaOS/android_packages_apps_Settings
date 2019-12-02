@@ -325,4 +325,8 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+
+    <!-- Hardware Info -->
+    <string name="device_manufacturer">Manufacturer</string>
+    <string name="device_codename">Codename</string>
 </resources>
