@@ -340,4 +340,8 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
+
+    <!-- Hardware Info -->
+    <string name="device_manufacturer">Manufacturer</string>
+    <string name="device_codename">Codename</string>
 </resources>
