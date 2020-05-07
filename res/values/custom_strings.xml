@@ -183,4 +183,8 @@
     <string name="morbid_version">Morbid version</string>
     <string name="morbid_version_default">Unknown</string>
     <string name="morbid_uri" translatable="false">https://github.com/Ngabluu</string>
+
+    <!-- Morbid maintainer -->
+    <string name="maintainer">Maintainer</string>
+    <string name="morbid_maintainer" translatable="false">Anonymous</string>
 </resources>
