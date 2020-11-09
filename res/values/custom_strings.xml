@@ -188,6 +188,10 @@
     <string name="maintainer">Maintainer</string>
     <string name="morbid_maintainer" translatable="false">Anonymous</string>
 
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Immersive Navigation</string>
+    <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding</string>
+    
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
