@@ -182,4 +182,5 @@
     <!-- Morbid version -->
     <string name="morbid_version">Morbid version</string>
     <string name="morbid_version_default">Unknown</string>
+    <string name="morbid_uri" translatable="false">https://github.com/Ngabluu</string>
 </resources>
