@@ -203,6 +203,9 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
+import com.morbid.labs.MorbidlabsDashboard;
+import com.morbid.labs.category.Theme;
+import com.morbid.labs.fragments.FontsPicker;
 
 public class SettingsGateway {
 
@@ -394,7 +397,10 @@ public class SettingsGateway {
             ResetNetwork.class.getName(),
             VibrationIntensitySettingsFragment.class.getName(),
             LiveDisplaySettings.class.getName(),
-            WirelessDebuggingFragment.class.getName()
+            WirelessDebuggingFragment.class.getName(),
+            MorbidlabsDashboard.class.getName(),
+            Theme.class.getName(),
+            FontsPicker.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -442,5 +448,8 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.WirelessDebuggingActivity.class.getName(),
+            Settings.MorbidlabsSettingsActivity.class.getName(),
+            Settings.FontsPickerActivity.class.getName(),
+            Settings.ThemeActivity.class.getName(),
     };
 }
