@@ -19,6 +19,17 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/custom_lab_title">
 
+    <PreferenceCategory
+        android:title="@string/statusbar_battery">
+
+        <Preference
+            android:key="sbbatteryicons"
+            android:title="@string/status_bar_battery_style_title"
+            android:summary="@string/status_bar_battery_style_summary"
+            android:fragment="com.android.settings.custom.fragments.statusbar.BatteryStyleSettings" />
+
+        </PreferenceCategory>
+
     <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="qs_show_data_usage"
         android:title="@string/qs_show_data_usage_title"

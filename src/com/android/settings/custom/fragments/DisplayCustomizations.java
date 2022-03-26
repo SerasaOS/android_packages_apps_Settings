@@ -32,6 +32,6 @@ public class DisplayCustomizations extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return -1;
+        return MetricsProto.MetricsEvent.CUSTOM;
     }
 }
