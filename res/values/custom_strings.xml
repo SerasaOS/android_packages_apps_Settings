@@ -392,6 +392,7 @@
 
     <!-- Customization category -->
     <string name="customization_category_title">Customization</string>
+    <string name="clocksettings_category_title">Clock Customizations</string>
     <string name="display_customization_title">Display Customizations</string>
     <string name="display_customization_summary">Adjust statusbar and quick settings</string>
     <string name="quicksettings_category_title">Quick Settings Customizations</string>
@@ -412,4 +413,15 @@
     <string name="battery_full_light_enabled">Battery light when full charged</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+
+    <!-- Statusbar clock -->
+    <string name="status_bar_clock_position_title">Clock position</string>
+    <string name="status_bar_clock_position_left">Left</string>
+    <string name="status_bar_clock_position_right">Right</string>
+    <string name="status_bar_clock_position_center">Center</string>
+    <string name="status_bar_am_pm_title">Clock AM/PM style</string>
+    <string name="status_bar_am_pm_disabled">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Small</string>
+    <string name="status_bar_am_pm_hidden">Hidden</string>
 </resources>
