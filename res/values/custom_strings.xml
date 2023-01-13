@@ -340,4 +340,8 @@
     <!-- Maintainer -->
     <string name="custom_maintainer">Maintainer</string>
 
+    <!-- ElectroLab -->
+    <string name="custom_lab_title">ElectroLab</string>
+    <string name="custom_lab_footer">Do With Your Own Risk!</string>
+    <string name="custom_lab_summary">Casual Features</string>
 </resources>
