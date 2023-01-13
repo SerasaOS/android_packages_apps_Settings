@@ -325,4 +325,9 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+
+    <!-- ElectroLab -->
+    <string name="custom_lab_title">ElectroLab</string>
+    <string name="custom_lab_footer">Do With Your Own Risk!</string>
+    <string name="custom_lab_summary">Casual Features</string>
 </resources>
