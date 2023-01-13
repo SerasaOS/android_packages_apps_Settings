@@ -15,4 +15,8 @@
     <!-- Maintainer -->
     <string name="edoubleu_maintainer">Maintainer</string>
 
+    <!-- ElectroLab -->
+    <string name="edoubleu_lab_title">ElectroLab</string>
+    <string name="edoubleu_lab_footer">At your own risk if you use spoof</string>
+    <string name="edoubleu_lab_summary">Features</string>
 </resources>

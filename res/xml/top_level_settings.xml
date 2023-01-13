@@ -185,6 +185,14 @@
         settings:highlightableMenuKey="@string/menu_key_accounts"
         settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
+   <com.android.settings.widget.HomepagePreference
+        android:fragment="com.edoubleu.settings.laboratory.LabSettings"
+        android:icon="@drawable/ic_edoubleu_lab"
+        android:key="top_level_lab"
+        android:order="5"
+        android:title="@string/edoubleu_lab_title"
+        android:summary="@string/edoubleu_lab_summary"/>
+
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.system.SystemDashboardFragment"
         android:icon="@drawable/ic_settings_system_dashboard_white"
