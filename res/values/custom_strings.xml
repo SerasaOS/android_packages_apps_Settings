@@ -333,4 +333,7 @@
 
     <!-- About device screen, Custom Release Version -->
     <string name="custom_release_version">Custom Version</string>
+
+    <!-- Show battery cycle count -->
+    <bool name="config_show_battery_cycle_count" translatable="false">false</bool>
 </resources>
