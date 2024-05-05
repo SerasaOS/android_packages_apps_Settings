@@ -28,7 +28,7 @@ import android.provider.Settings;
 import android.view.WindowManager;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
@@ -91,7 +91,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         initSeekBarPreference(LEFT_EDGE_SEEKBAR_KEY);
         initSeekBarPreference(RIGHT_EDGE_SEEKBAR_KEY);
-        initImmersiveSwitchPreference();
+        initImmersiveSwitchPreferenceCompat();
     }
 
     @Override
@@ -167,8 +167,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         });
     }
 
-     private void initImmersiveSwitchPreference() {
-         SwitchPreference prefImmersiveNav = getPreferenceScreen().findPreference(IMMERSIVE_NAV_KEY);
+     private void initImmersiveSwitchPreferenceCompat() {
+         SwitchPreferenceCompat prefImmersiveNav = getPreferenceScreen().findPreference(IMMERSIVE_NAV_KEY);
 
          prefImmersiveNav.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
              @Override
