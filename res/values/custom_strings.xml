@@ -396,4 +396,16 @@
     <string name="display_customization_summary">Adjust statusbar and quick settings</string>
     <string name="quicksettings_category_title">Quick Settings Customizations</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
+
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">Brightness</string>
+    <string name="status_bar_brightness_slider_title">Brightness slider</string>
+    <string name="status_bar_brightness_slider_never">Never show</string>
+    <string name="status_bar_brightness_slider_expanded">Show when expanded</string>
+    <string name="status_bar_brightness_slider_always">Show always</string>
+    <string name="status_bar_brightness_slider_position_title">Brightness slider Position</string>
+    <string name="status_bar_brightness_slider_position_top">Top</string>
+    <string name="status_bar_brightness_slider_position_bottom">Bottom</string>
+    <string name="status_bar_brightness_slider_auto_title">Auto brightness</string>
+    <string name="status_bar_brightness_slider_auto_summary">Show toggle for adaptive brightness near the slider</string>
 </resources>
