@@ -165,11 +165,6 @@
     <string name="gesture_wake_ambient">Show Ambient</string>
     <string name="gesture_wake">Fully wake</string>
 
-    <!-- Unlimited g00gle ph0t0s st0rage -->
-    <string name="photos_pref">Spoofing</string>
-    <string name="unlimited_photos_storage_title">Unlimited Google Photos storage</string>
-    <string name="unlimited_photos_storage_summary">Unlimited storage for backup photos. Google Photos’ new features will not be available.</string>
-
     <!-- face lockout -->
     <string name="face_lockout_title">Disable face lockout</string>
     <string name="face_lockout_summary">Deactivates 30 second timeout as well as permanent lockout after multiple failed face unlock attempts</string>
