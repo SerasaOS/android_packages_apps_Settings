@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Our logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="edoubleu"
+        android:layout="@layout/edoubleu_logo"
+        android:selectable="false"/>
+
     <!-- Custom version -->
     <Preference
         android:key="custom_release_version"
