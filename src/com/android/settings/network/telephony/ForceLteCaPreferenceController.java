@@ -72,12 +72,16 @@ public class ForceLteCaPreferenceController extends TelephonyTogglePreferenceCon
 
     @Override
     public int getAvailabilityStatus(int subId) {
+
         if (!mContext.getResources().getBoolean(R.bool.config_showForceLteCaToggle))
             return UNSUPPORTED_ON_DEVICE;
 
         init(subId);
-        return (SubscriptionManager.isValidSubscriptionId(mSubId))
-            ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
+        if (SubscriptionManager.isValidSubscriptionId(mSubId)) {
+            return AVAILABLE;
+        }
+
+        return CONDITIONALLY_UNAVAILABLE;
     }
 
     @Override
