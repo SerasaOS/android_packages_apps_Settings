@@ -21,7 +21,7 @@
     <string name="edoubleu_lab_summary">Features</string>
 
     <!-- About device screen, Edoubleu Release Version -->
-    <string name="edoubleu_release_version">Edoubleu Version</string>
+    <string name="edoubleu_release_version">Custom Version</string>
 
     <!-- Show battery cycle count -->
     <bool name="config_show_battery_cycle_count" translatable="false">false</bool>
