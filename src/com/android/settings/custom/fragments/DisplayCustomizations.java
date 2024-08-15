@@ -82,6 +82,6 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-       return MetricsProto.MetricsEvent.CUSTOM;
+       return MetricsProto.MetricsEvent.EDOUBLEU;
     }
 }

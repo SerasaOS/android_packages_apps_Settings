@@ -41,6 +41,6 @@ public class BrightnessSliderSettings extends SettingsPreferenceFragment impleme
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CUSTOM;
+        return MetricsProto.MetricsEvent.EDOUBLEU;
     }
 }
