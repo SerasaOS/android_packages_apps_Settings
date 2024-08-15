@@ -144,6 +144,7 @@
     <string-array name="display_engine_mode_entries">
         <item>@string/display_engine_default</item>
         <item>@string/x_reality_engine_mode_title</item>
+        <item>@string/triluminous_display_mode_title</item>
         <item>@string/vivid_engine_mode_title</item>
     </string-array>
 
@@ -151,6 +152,7 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
     </string-array>
     
    <!-- contextual dashboard messages-->    
