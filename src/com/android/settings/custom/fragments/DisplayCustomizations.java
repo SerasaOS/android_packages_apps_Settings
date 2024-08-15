@@ -47,7 +47,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.custom_lab_settings);
+        addPreferencesFromResource(R.xml.display_customizations);
         PreferenceScreen prefSet = getPreferenceScreen();
         final ContentResolver resolver = getActivity().getContentResolver();
 
