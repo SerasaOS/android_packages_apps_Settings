@@ -19,6 +19,7 @@ package com.android.settings.custom.fragments;
 import android.os.Bundle;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
+import com.android.internal.logging.nano.MetricsProto;
 
 public class DisplayCustomizations extends SettingsPreferenceFragment {
 
