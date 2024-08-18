@@ -49,6 +49,13 @@
         android:summary="@string/show_fourg_icon_summary"
         android:defaultValue="true"/>
 
+    <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+        android:order="92"
+        android:key="window_ignore_secure"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false"/>
+
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/custom_lab_footer"
         android:selectable="false"
