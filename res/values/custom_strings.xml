@@ -319,11 +319,16 @@
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 
-
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
-    
+
+    <!-- Pocket Mode-->
+    <string name="pocket_mode_category">Pocket Mode</string>
+    <string name="lock_screen_pocket_detection_title">Pocket detection</string>
+    <string name="lock_screen_pocket_detection_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="always_on_pocket_mode_enabled_title">Always on Pocket mode</string>
+    <string name="always_on_pocket_mode_summary">Always block screen and button inputs when screen is turned on</string>
 </resources>
